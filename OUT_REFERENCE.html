@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>In Time</title>
+</head>
+<body bgcolor="yellow">
+	<form>
+		<table align="center">
+			<tr>
+				<td>
+					<label>Name:</label>
+				</td>
+				<td>
+					<div class="input-icons" ><i class="fa fa-user icon"></i>
+					<input type="text" id="name" name="nameofstudent"  maxlength="25" required>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Rollno:</label>
+				</td>
+				<td>
+					<input type="text" id= "rollnumber" name="rollno" required> 
+				</td>
+			</tr>
+			<tr>
+				<td> <label for="email">Email Id:</label></td>
+				<td>
+					<div class="input-icons" ><i class="fa fa-envelope"></i>
+					<input type="email" id="email" name="emailid"  maxlength="30" required></td>
+			</tr>
+			<tr>
+				<td> <label for="dob">Outtime:</label></td>
+				<td><input type="datetime-local" id="dob" name="Dateofbirth"  required max=currentday></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<button onclick="alert('Submitted Successfully')">SUBMIT</button>
+				</td>
+			</tr>
+		</table>
+		
+	</form>
+</body>
+</html>
